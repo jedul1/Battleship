@@ -27,6 +27,14 @@ public class Ship {
         return size;
     }
 
+    public ArrayList<String> getBattleship() {
+        return new ArrayList<>(battleship);
+    }
+
+    public void setBattleship(ArrayList<String> battleship) {
+        this.battleship = new ArrayList<>(battleship);
+    }
+
     /**
      * Determines whether a ship is sunken
      * @return true if the battleship ArrayList is empty
