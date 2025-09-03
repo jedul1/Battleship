@@ -73,6 +73,6 @@ public class Ship {
 
     @Override
     public String toString() {
-        return "com.Battleship.Ship Name: " + name + "\n Size: " + size + "\n" + battleship.toString();
+        return "Ship Name: " + name + "\n Size: " + size + "\n" + battleship.toString();
     }
 }
